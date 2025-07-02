@@ -7,6 +7,7 @@ import { useEffect } from 'react'
 import HeroSection from './HeroSection'
 import UsefulFeature from './UsefulFeature'
 import CustomerReviews from './CustomerReviews'
+import NewsSection from './NewsSection'
 import OurTeam from './OurTeam'
 import Pricing from './Pricing'
 import ProductStat from './ProductStat'
@@ -32,6 +33,7 @@ const LandingPageWrapper = ({ mode }) => {
       <HeroSection mode={mode} />
       <UsefulFeature />
       <CustomerReviews />
+      <NewsSection />
       <OurTeam />
       <Pricing />
       <ProductStat />
