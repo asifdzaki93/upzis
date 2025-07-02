@@ -1,7 +1,9 @@
 'use client'
 
 import { useState } from 'react'
+
 import Link from 'next/link'
+
 import Typography from '@mui/material/Typography'
 import Card from '@mui/material/Card'
 import CardContent from '@mui/material/CardContent'
@@ -9,8 +11,10 @@ import CardMedia from '@mui/material/CardMedia'
 import Chip from '@mui/material/Chip'
 import Grid from '@mui/material/Grid'
 import Button from '@mui/material/Button'
+
 import frontCommonStyles from './styles.module.css'
 import styles from './landing-page/styles.module.css'
+
 import newsData from '@/data/newsData'
 
 const categories = ['Semua', ...Array.from(new Set(newsData.map(n => n.category)))]
@@ -122,4 +126,4 @@ export default function NewsPageClient() {
       </div>
     </section>
   )
-} 
+}
