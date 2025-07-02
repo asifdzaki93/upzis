@@ -25,10 +25,9 @@ const HeroSection = ({ mode }) => {
   const [transform, setTransform] = useState('')
 
   // Vars
-  const dashboardImageLight =
-    'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80'
-  const dashboardImageDark =
-    'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80'
+  const dashboardImageLight = 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80'
+  const dashboardImageDark = 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80'
+
   const elementsImageLight = '/images/front-pages/landing-page/hero-elements-light.png'
   const elementsImageDark = '/images/front-pages/landing-page/hero-elements-dark.png'
   const heroSectionBgLight = '/images/front-pages/landing-page/hero-bg-light.png'
