@@ -20,26 +20,26 @@ import styles from './styles.module.css'
 // Data
 const team = [
   {
-    name: 'Sophie Gilbert',
-    position: 'Project Manager',
+    name: 'KH. Ahmad Mustofa Bisri',
+    position: 'Pembina & Tokoh NU',
     image: '/images/front-pages/landing-page/sophie.png',
     color: 'var(--mui-palette-primary-mainOpacity)'
   },
   {
-    name: 'Paul Miles',
-    position: 'UI Designer',
+    name: 'KH. Yahya Cholil Staquf',
+    position: 'Ketua Umum PBNU',
     image: '/images/front-pages/landing-page/paul.png',
     color: 'var(--mui-palette-info-mainOpacity)'
   },
   {
-    name: 'Nannie Ford',
-    position: 'Development Lead',
+    name: 'H. Abdul Ghofur',
+    position: 'Direktur UPZISNU',
     image: '/images/front-pages/landing-page/nannie.png',
     color: 'var(--mui-palette-error-mainOpacity)'
   },
   {
-    name: 'Chris Watkins',
-    position: 'Marketing Manager',
+    name: 'Hj. Siti Aminah',
+    position: 'Bendahara & Penggerak ZIS',
     image: '/images/front-pages/landing-page/chris.png',
     color: 'var(--mui-palette-success-mainOpacity)'
   }
@@ -83,22 +83,24 @@ const OurTeam = () => {
     <section id='team' className='plb-[100px] bg-backgroundPaper' ref={ref}>
       <div className={frontCommonStyles.layoutSpacing}>
         <div className='flex flex-col gap-y-4 items-center justify-center'>
-          <Chip size='small' variant='tonal' color='primary' label='Our Great Team' />
+          <Chip size='small' variant='tonal' color='primary' label='Pendiri & Penggerak UPZISNU' />
           <div className='flex flex-col items-center gap-y-1 justify-center flex-wrap'>
             <div className='flex items-center gap-x-2'>
               <Typography color='text.primary' variant='h4'>
                 <span className='relative z-[1] font-extrabold'>
-                  Supported
+                  Bersama Para Penggerak
                   <img
                     src='/images/front-pages/landing-page/bg-shape.png'
                     alt='bg-shape'
-                    className='absolute block-end-0 z-[1] bs-[40%] is-[132%] -inline-start-[19%] block-start-[17px]'
+                    className='absolute block-end-0 z-[1] bs-[40%] is-[132%] -inline-start-[-19%] block-start-[17px]'
                   />
                 </span>{' '}
-                by Real People
+                <span className='relative z-[1] font-extrabold'>Menuju Ummat Berdaya</span>
               </Typography>
             </div>
-            <Typography className='text-center'>Who is behind these great-looking interfaces?</Typography>
+            <Typography className='text-center'>
+              Inilah para pendiri dan penggerak utama UPZISNU yang istiqomah melayani ummat.
+            </Typography>
           </div>
         </div>
         <Grid container rowSpacing={16} columnSpacing={6} className='pbs-[100px]'>

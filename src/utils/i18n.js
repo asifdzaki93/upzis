@@ -11,7 +11,8 @@ export const isUrlMissingLocale = url => {
 
 // Get the localized url
 export const getLocalizedUrl = (url, languageCode) => {
-  if (!url || !languageCode) throw new Error("URL or Language Code can't be empty")
+  if (!url) throw new Error("URL can't be empty")
 
-  return isUrlMissingLocale(url) ? `/${languageCode}${ensurePrefix(url, '/')}` : url
+  // Langsung return url tanpa prefix locale
+  return ensurePrefix(url, '/')
 }

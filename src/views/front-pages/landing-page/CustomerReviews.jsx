@@ -32,84 +32,84 @@ import styles from './styles.module.css'
 // Data
 const data = [
   {
-    desc: "I've never used a theme as versatile and flexible as Vuexy. It's my go to for building dashboard sites on almost any project.",
-    svg: <Pinterest color='#ee7676' />,
+    desc: 'Terima kasih UPZISNU. Modal usaha ini menyelamatkan warung saya.',
+    svg: <Pinterest color='var(--mui-palette-primary-main)' />,
     rating: 5,
-    name: 'Eugenia Moore',
-    position: 'Founder of Pinterest',
+    name: 'Ibu Rini',
+    position: 'Mustahik, Penerima Zakat Produktif',
     avatarSrc: '/images/avatars/1.png'
   },
   {
-    desc: 'Materio is awesome, and I particularly enjoy knowing that if I get stuck on something.',
-    svg: <Netflix color='#d34c4d' />,
+    desc: 'UPZISNU bikin saya tenang berdonasi. Laporannya jelas dan lengkap.',
+    svg: <Netflix color='var(--mui-palette-warning-main)' />,
     rating: 5,
-    name: 'Tommy haffman',
-    position: 'Founder of Netflix',
+    name: 'Bapak Faiz',
+    position: 'Donatur',
     avatarSrc: '/images/avatars/2.png'
   },
   {
-    desc: "This template is superior in so many ways. The code, the design, the regular updates, the support.. It's the whole package. Excellent Work.",
-    svg: <Airbnb color='#FF5A60' />,
-    rating: 4,
-    name: 'Eugenia Moore',
-    position: 'CTO of Airbnb',
+    desc: 'Bantuan sembako dari UPZISNU sangat membantu keluarga kami di masa sulit.',
+    svg: <Airbnb color='var(--mui-palette-error-main)' />,
+    rating: 5,
+    name: 'Bu Siti',
+    position: 'Penerima Sedekah Pangan',
     avatarSrc: '/images/avatars/3.png'
   },
   {
-    desc: "All the requirements for developers have been taken into consideration, so I'm able to build any interface I want.",
-    svg: <Coinbase color='#0199ff' />,
+    desc: 'Beasiswa infak pendidikan UPZISNU membuat saya bisa lanjut sekolah.',
+    svg: <Coinbase color='var(--mui-palette-info-main)' />,
     rating: 5,
-    name: 'Sara Smith',
-    position: 'Founder of Coinbase',
+    name: 'Ahmad',
+    position: 'Penerima Beasiswa',
     avatarSrc: '/images/avatars/4.png'
   },
   {
-    desc: "I've never used a theme as versatile and flexible as Vuexy. It's my go to for building dashboard sites on almost any project.",
-    svg: <Dribbble color='#ea4c89' />,
+    desc: 'UPZISNU selalu hadir saat bencana. Bantuan cepat dan tepat sasaran.',
+    svg: <Dribbble color='var(--mui-palette-success-main)' />,
     rating: 5,
-    name: 'Tommy haffman',
-    position: 'Founder of Dribble',
+    name: 'Pak Slamet',
+    position: 'Penerima Bantuan NU Peduli',
     avatarSrc: '/images/avatars/5.png'
   },
   {
-    desc: "I've never used a theme as versatile and flexible as Vuexy. It's my go to for building dashboard sites on almost any project.",
-    svg: <Pinterest color='#ee7676' />,
+    desc: 'Saya rutin menyalurkan zakat lewat UPZISNU karena mudah dan terpercaya.',
+    svg: <Pinterest color='var(--mui-palette-primary-main)' />,
     rating: 5,
-    name: 'Eugenia Moore',
-    position: 'Founder of Pinterest',
+    name: 'Ibu Dewi',
+    position: 'Muzaki',
     avatarSrc: '/images/avatars/6.png',
-    color: '#2882C3'
+    color: 'var(--mui-palette-info-main)'
   },
   {
-    desc: 'Materio is awesome, and I particularly enjoy knowing that if I get stuck on something.',
-    svg: <HubSpot color='#FF5C35' />,
+    desc: 'Konsultasi zakat di UPZISNU sangat membantu saya memahami syariat.',
+    svg: <HubSpot color='var(--mui-palette-warning-main)' />,
     rating: 5,
-    name: 'Tommy haffman',
-    position: 'Founder of HubSpot',
+    name: 'Pak Hasyim',
+    position: 'Muzaki',
     avatarSrc: '/images/avatars/7.png'
   },
   {
-    desc: "This template is superior in so many ways. The code, the design, the regular updates, the support.. It's the whole package. Excellent Work.",
-    svg: <Airbnb color='#FF5A60' />,
-    rating: 4,
-    name: 'Eugenia Moore',
-    position: 'CTO of Airbnb',
+    desc: 'UPZISNU selalu transparan, laporan keuangan mudah diakses.',
+    svg: <Airbnb color='var(--mui-palette-error-main)' />,
+    rating: 5,
+    name: 'Bu Nur',
+    position: 'Donatur',
     avatarSrc: '/images/avatars/8.png'
   },
   {
-    desc: "All the requirements for developers have been taken into consideration, so I'm able to build any interface I want.",
-    svg: <Coinbase color='#0199ff' />,
+    desc: 'Program-program UPZISNU sangat memberdayakan dan tepat sasaran.',
+    svg: <Coinbase color='var(--mui-palette-info-main)' />,
     rating: 5,
-    name: 'Sara Smith',
-    position: 'Founder of Coinbase',
+    name: 'Pak Yusuf',
+    position: 'Tokoh Masyarakat',
     avatarSrc: '/images/avatars/9.png'
   },
   {
-    desc: 'Materio is awesome, and I particularly enjoy knowing that if I get stuck on something.',
-    svg: <Dribbble color='#ea4c89' />,
+    desc: 'UPZISNU hadir di desa kami, membantu banyak warga yang membutuhkan.',
+    svg: <Dribbble color='var(--mui-palette-success-main)' />,
     rating: 5,
-    name: 'Tommy haffman',
-    position: 'Founder of Dribbble',
+    name: 'Bu Aminah',
+    position: 'Penerima Manfaat',
     avatarSrc: '/images/avatars/10.png'
   }
 ]
@@ -177,11 +177,11 @@ const CustomerReviews = () => {
         className={classnames('flex max-md:flex-col max-sm:flex-wrap is-full gap-6', frontCommonStyles.layoutSpacing)}
       >
         <div className='flex flex-col gap-1 bs-full justify-center items-center lg:items-start is-full md:is-[30%] mlb-auto sm:pbs-2'>
-          <Chip label='Real Customers Reviews' variant='tonal' color='primary' size='small' className='mbe-3' />
+          <Chip label='Testimoni Penerima & Donatur' variant='tonal' color='primary' size='small' className='mbe-3' />
           <div className='flex flex-col gap-y-1 flex-wrap max-lg:text-center '>
             <Typography color='text.primary' variant='h4'>
               <span className='relative z-[1] font-extrabold'>
-                What people say
+                Apa Kata Mereka
                 <img
                   src='/images/front-pages/landing-page/bg-shape.png'
                   alt='bg-shape'
@@ -189,7 +189,7 @@ const CustomerReviews = () => {
                 />
               </span>
             </Typography>
-            <Typography>See what our customers have to say about their experience.</Typography>
+            <Typography>Simak pengalaman para donatur dan penerima manfaat bersama UPZISNU.</Typography>
           </div>
           <div className='flex gap-x-4 mbs-11'>
             <CustomIconButton color='primary' variant='tonal' onClick={() => instanceRef.current?.prev()}>
@@ -233,11 +233,11 @@ const CustomerReviews = () => {
       </div>
       <Divider />
       <div className='flex flex-wrap items-center justify-center gap-x-16 gap-y-6 mli-3'>
-        <Airbnb color='var(--mui-palette-text-secondary)' />
-        <Netflix color='var(--mui-palette-text-secondary)' />
-        <Dribbble color='var(--mui-palette-text-secondary)' />
-        <Coinbase color='var(--mui-palette-text-secondary)' />
-        <Pinterest color='var(--mui-palette-text-secondary)' />
+        <Airbnb color='var(--mui-palette-primary-main)' />
+        <Netflix color='var(--mui-palette-warning-main)' />
+        <Dribbble color='var(--mui-palette-success-main)' />
+        <Coinbase color='var(--mui-palette-info-main)' />
+        <Pinterest color='var(--mui-palette-primary-main)' />
       </div>
     </section>
   )

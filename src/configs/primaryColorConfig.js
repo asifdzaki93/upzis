@@ -2,33 +2,33 @@
 const primaryColorConfig = [
   {
     name: 'primary-1',
-    light: '#8F85F3',
-    main: '#7367F0',
-    dark: '#675DD8'
+    light: '#43B649', // Hijau muda Lazisnu
+    main: '#009B4C', // Hijau utama Lazisnu
+    dark: '#007A3D' // Hijau tua Lazisnu
   },
   {
     name: 'primary-2',
-    light: '#4EB0B1',
-    main: '#0D9394',
-    dark: '#096B6C'
+    light: '#FFD600', // Kuning aksen Lazisnu
+    main: '#FFD600',
+    dark: '#BFA700'
   },
   {
     name: 'primary-3',
-    light: '#FFC25A',
-    main: '#FFAB1D',
-    dark: '#BA7D15'
+    light: '#F5F5F5', // Abu-abu netral (background)
+    main: '#E0E0E0',
+    dark: '#BDBDBD'
   },
   {
     name: 'primary-4',
-    light: '#F0718D',
-    main: '#EB3D63',
-    dark: '#AC2D48'
+    light: '#FFFFFF', // Putih (untuk kontras/aksen)
+    main: '#FFFFFF',
+    dark: '#E0E0E0'
   },
   {
     name: 'primary-5',
-    light: '#5CAFF1',
-    main: '#2092EC',
-    dark: '#176BAC'
+    light: '#A5D6A7', // Hijau pastel (untuk variasi)
+    main: '#66BB6A',
+    dark: '#338A3E'
   }
 ]
 

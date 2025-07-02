@@ -302,7 +302,7 @@ const DropdownMenu = props => {
         <div className='flex flex-col gap-4'>
           <div className='flex gap-3 items-center'>
             <CustomAvatar variant='rounded' color='primary' skin='light'>
-              <i className='tabler-lock' />
+              <i className='tabler-lock text-primary' />
             </CustomAvatar>
             <Typography variant='h6'>Auth Demo</Typography>
           </div>

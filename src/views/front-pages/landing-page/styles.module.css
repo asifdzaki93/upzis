@@ -9,7 +9,7 @@
   border-end-start-radius: 3.5rem;
   border-end-end-radius: 3.5rem;
   &.bgLight {
-    background: linear-gradient(138.18deg, #eae8fd 0%, #fce5e6 94.44%);
+    background: linear-gradient(138.18deg, #e8f5e9 0%, #fffde7 94.44%, #009b4c 100%);
   }
   &.bgDark {
     background: var(--mui-palette-background-default);
@@ -29,7 +29,7 @@
 }
 
 .heroText {
-  background: linear-gradient(135deg, #28c76f 0%, #5a4aff 47.92%, #ff3739 100%) repeat;
+  background: linear-gradient(135deg, #009b4c 0%, #ffd5008b 47.92%, #007a3d 100%) repeat;
   background-size: 200% 200%;
   background-clip: text;
   color: transparent;

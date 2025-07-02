@@ -42,6 +42,10 @@ const Logo = ({ color }) => {
   // Vars
   const { layout } = settings
 
+  // Ambil mode dari settings
+  const mode = settings.mode || 'light'
+  const logoSrc = mode === 'dark' ? '/icon/logoPanjangDark.png' : '/icon/logoPanjangLight.png'
+
   useEffect(() => {
     if (layout !== 'collapsed') {
       return
@@ -59,7 +63,7 @@ const Logo = ({ color }) => {
 
   return (
     <div className='flex items-center'>
-      <VuexyLogo className='text-2xl text-primary' />
+      <img src={logoSrc} alt='Logo' style={{ height: 40 }} />
       <LogoText
         color={color}
         ref={logoTextRef}

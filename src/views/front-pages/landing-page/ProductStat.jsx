@@ -14,28 +14,28 @@ import frontCommonStyles from '@views/front-pages/styles.module.css'
 // Data
 const statData = [
   {
-    title: 'Support Tickets Resolved',
-    value: '7.1k+',
+    title: 'Penerima Manfaat',
+    value: '25.000+',
     svg: <LaptopCharging color='var(--mui-palette-primary-main)' />,
     color: 'var(--mui-palette-primary-darkerOpacity)',
     isHover: false
   },
   {
-    title: 'Join creatives community',
-    value: '50k+',
+    title: 'Donatur Aktif',
+    value: '8.500+',
     svg: <User color='var(--mui-palette-success-main)' />,
     color: 'var(--mui-palette-success-darkerOpacity)',
     isHover: false
   },
   {
-    title: 'Highly Rated Products',
-    value: '4.8/5',
+    title: 'Program Berjalan',
+    value: '120+',
     svg: <Diamond color='var(--mui-palette-info-main)' />,
     color: 'var(--mui-palette-info-darkerOpacity)',
     isHover: false
   },
   {
-    title: 'Money Back Guarantee',
+    title: 'Transparansi Dana',
     value: '100%',
     svg: <Check color='var(--mui-palette-warning-main)' />,
     color: 'var(--mui-palette-warning-darkerOpacity)',

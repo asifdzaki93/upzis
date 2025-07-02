@@ -22,28 +22,28 @@ import styles from './styles.module.css'
 const FaqsData = [
   {
     id: 'panel1',
-    question: 'Do you charge for each upgrade?',
+    question: 'Apa itu UPZISNU?',
     answer:
-      'Lemon drops chocolate cake gummies carrot cake chupa chups muffin topping. Sesame snaps icing marzipan gummi bears macaroon dragée danish caramels powder. Bear claw dragée pastry topping soufflé. Wafer gummi bears marshmallow pastry pie.'
+      "UPZISNU (Unit Pengelola Zakat, Infak, dan Sedekah Nahdlatul Ulama) adalah lembaga resmi di bawah naungan NU yang mengelola penghimpunan dan penyaluran dana ZIS secara syar'i, amanah, dan profesional."
   },
   {
     id: 'panel2',
-    question: 'What is regular license?',
+    question: 'Apakah zakat saya bisa disalurkan ke program tertentu?',
     active: true,
     answer:
-      'Regular license can be used for end products that do not charge users for access or service(access is free and there will be no monthly subscription fee). Single regular license can be used for single end product and end product can be used by you or your client. If you want to sell end product to multiple clients then you will need to purchase separate license for each client. The same rule applies if you want to use the same end product on multiple domains(unique setup). For more info on regular license you can check official description.'
+      'Tentu, Anda dapat memilih program penyaluran sesuai kebutuhan seperti Zakat Produktif, Sedekah Pangan, Infak Pendidikan, atau NU Peduli. Silakan pilih saat berdonasi.'
   },
   {
     id: 'panel3',
-    question: 'What is extended license?',
+    question: 'Bagaimana cara donasi via QRIS?',
     answer:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis et aliquid quaerat possimus maxime! Mollitia reprehenderit neque repellat deleniti delectus architecto dolorum maxime, blanditiis earum ea, incidunt quam possimus cumque.'
+      'Cukup scan QR Code UPZISNU yang tersedia di website atau media sosial kami, lalu ikuti instruksi pembayaran melalui aplikasi mobile banking atau e-wallet Anda.'
   },
   {
     id: 'panel4',
-    question: 'Which license is applicable for SASS application?',
+    question: 'Apa bedanya zakat, infak, dan sedekah?',
     answer:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis et aliquid quaerat possimus maxime! Mollitia reprehenderit neque repellat deleniti delectus architecto dolorum maxime, blanditiis earum ea, incidunt quam possimus cumque.'
+      'Zakat adalah kewajiban dengan syarat dan nisab tertentu, infak adalah pemberian harta di luar zakat, sedangkan sedekah adalah pemberian sukarela untuk kebaikan. Semua dikelola dan disalurkan sesuai syariat.'
   }
 ]
 
@@ -77,23 +77,22 @@ const Faqs = () => {
     <section id='faq' ref={ref} className={classnames('plb-[100px] bg-backgroundDefault', styles.sectionStartRadius)}>
       <div className={classnames('flex flex-col gap-16', frontCommonStyles.layoutSpacing)}>
         <div className='flex flex-col gap-y-4 items-center justify-center'>
-          <Chip size='small' variant='tonal' color='primary' label='FAQ' />
+          <Chip size='small' variant='tonal' color='primary' label='FAQ UPZISNU' />
           <div className='flex flex-col items-center gap-y-1 justify-center flex-wrap'>
             <div className='flex items-center gap-x-2'>
               <Typography color='text.primary' variant='h4'>
-                Frequently asked
                 <span className='relative z-[1] font-extrabold'>
+                  Pertanyaan Umum
                   <img
                     src='/images/front-pages/landing-page/bg-shape.png'
                     alt='bg-shape'
                     className='absolute block-end-0 z-[1] bs-[40%] is-[132%] -inline-start-[8%] block-start-[17px]'
-                  />{' '}
-                  questions
+                  />
                 </span>
               </Typography>
             </div>
             <Typography className='text-center'>
-              Browse through these FAQs to find answers to commonly asked questions.
+              Temukan jawaban seputar layanan, program, dan donasi di UPZISNU.
             </Typography>
           </div>
         </div>
